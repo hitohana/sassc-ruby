@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Use libsass with Ruby!"
   spec.description   = "Use libsass with Ruby!"
   spec.homepage      = "https://github.com/sass/sassc-ruby"
+  spec.metadata      = { 'github_repo' => 'git@github.com:hitohana/sassc-ruby.git' }
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
